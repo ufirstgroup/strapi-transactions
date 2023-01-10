@@ -27,6 +27,14 @@ You can find two tests that demonstrate how transactions are run in Strapi v4:
 
 You can find the tests here: src/api/product/__tests__
 
+To run the tests you can use the following command:
+```
+ yarn test
+```
+
+## Env files
+It is never a good idea to commit env files to a repo! But for this exercise and testing purposes I committed them.
+
 ## Acknowledgement
 
 Code written by Geoffroy Baumier, Senior Software Engineer @ UFirst Group
