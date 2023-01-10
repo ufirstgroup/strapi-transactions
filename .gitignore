@@ -120,4 +120,3 @@ build
 
 database/data
 database/postgres.env
-database/postgres-test.env
