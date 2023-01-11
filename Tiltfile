@@ -8,7 +8,7 @@ docker_compose('database/docker-compose.yml')
 local_resource(
     'Strapi',
     'yarn',
-    serve_cmd='yarn develop',
+    serve_cmd='yarn start',
     deps=['package.json', 'yarn.lock'],
     resource_deps=['postgres'],
     links=[link('http://localhost:1337/admin', 'Open Backoffice')]
